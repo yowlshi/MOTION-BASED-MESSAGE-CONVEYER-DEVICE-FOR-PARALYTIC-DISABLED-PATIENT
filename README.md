@@ -39,7 +39,9 @@ The system can communicate four essential patient needs based on wrist movements
 
 Below is the circuit schematic showing the connections between components:
 
-[Circuit Schematic](schematic%20diagram.jpg)
+<p align="center">
+  <img src="schematic diagram.jpg" alt="Circuit Schematic" width="700"/>
+</p>
 
 ### Connection Details
 
