@@ -35,6 +35,28 @@ The system can communicate four essential patient needs based on wrist movements
 - 3.7V 500mAh Lithium Polymer Battery
 - Wristband for Mounting
 
+## Circuit Schematic
+
+Below is the circuit schematic showing the connections between components:
+
+[Circuit Schematic](schematic%20diagram.jpg)
+
+### Connection Details
+
+- **ESP8266 to ADXL345**:
+  - D1 (GPIO 5) → SCL
+  - D2 (GPIO 4) → SDA
+  - 3V3 → VCC
+  - GND → GND
+
+- **ESP8266 to TP4056**:
+  - VIN → OUT+
+  - GND → OUT-
+
+- **TP4056 to Battery**:
+  - BAT+ → Battery +ve
+  - BAT- → Battery -ve
+
 ## Installation
 
 ### Prerequisites
